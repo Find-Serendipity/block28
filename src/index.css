@@ -1,0 +1,58 @@
+*{ font-family: arial, sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+.home {
+  background-image: url("https://cdn.midjourney.com/ef520cde-2fb8-40e4-ac98-0d6f9388bf1c/0_1.webp");
+  background-repeat: repeat;
+  color: white;
+}
+
+.red {
+  background-image: url("https://cdn.midjourney.com/6186707a-d862-4e33-a0a4-c99669731767/0_3.webp");
+  color: white;
+}
+
+.blue {
+  background-image: url("https://cdn.midjourney.com/c1098a34-cbaf-4f2f-bf1e-a97b5ca6b50d/0_2.webp");
+  color: white;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  padding: 10px;
+  justify-content: space-evenly;
+  background-image: url("https://cdn.midjourney.com/00e52aca-13a3-4bfb-ab03-8511b1b039bb/0_3.webp");
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
